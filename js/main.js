@@ -186,7 +186,7 @@
 
       $this.knob({
         'draw': function() {
-          $(this.i).val(this.cv + ' °C')
+          $(this.i).val(this.cv+19+ '°')
         }
       });
 
